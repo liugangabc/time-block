@@ -1,0 +1,34 @@
+
+.edit {
+    float: right;
+    /*display: none;*/
+}
+
+.task:hover .edit{
+    /*display: block;*/
+    cursor: pointer;
+}
+
+.add {
+    text-align: center;
+    cursor: pointer;
+}
+
+.edit span {
+    padding-right: 10px;
+}
+
+.urgency {
+    background-color: #d9534f !important;
+    color: white
+}
+
+.prominent{
+    background-color: #f0ad4e !important;
+    color: white
+}
+
+.subsidiary{
+    background-color: #5bc0de !important;
+    color: white
+}
